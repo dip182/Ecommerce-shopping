@@ -1,7 +1,7 @@
 <script>
     function countdown() {
 		// Change  this with your end date/time if you want to increase or decrease the time
-        const endDate = new Date("2024-01-15T00:00:00Z").getTime(); 
+        const endDate = new Date("2024-01-25T00:00:00Z").getTime(); 
         const timer = setInterval(function() {
             const now = new Date().getTime();
             const distance = endDate - now;
